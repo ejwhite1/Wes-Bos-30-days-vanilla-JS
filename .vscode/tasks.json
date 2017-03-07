@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "Chrome Canary",
+    "windows": {
+        "command": "C:\\Users\\ejwhite1\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe" 
+    },
+    "args": ["--remote-debugging-port=9222", "${file}"],
+}
+
+
